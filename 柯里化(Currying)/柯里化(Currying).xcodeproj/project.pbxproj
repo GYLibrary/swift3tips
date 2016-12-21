@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B771C0F91E0935DD00DD007C /* GYIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = B771C0F81E0935DD00DD007C /* GYIndex.swift */; };
+		B7BE025D1E0902F8001F8A58 /* GYEscaping.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BE025C1E0902F8001F8A58 /* GYEscaping.swift */; };
+		B7D5A56F1E07E2480066EA16 /* GYTuple.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D5A56E1E07E2480066EA16 /* GYTuple.swift */; };
 		B7D6E4A71DFA41C700D79BFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D6E4A61DFA41C700D79BFF /* AppDelegate.swift */; };
 		B7D6E4A91DFA41C700D79BFF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D6E4A81DFA41C700D79BFF /* ViewController.swift */; };
 		B7D6E4AC1DFA41C700D79BFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7D6E4AA1DFA41C700D79BFF /* Main.storyboard */; };
@@ -36,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B771C0F81E0935DD00DD007C /* GYIndex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GYIndex.swift; sourceTree = "<group>"; };
+		B7BE025C1E0902F8001F8A58 /* GYEscaping.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GYEscaping.swift; sourceTree = "<group>"; };
+		B7D5A56E1E07E2480066EA16 /* GYTuple.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GYTuple.swift; sourceTree = "<group>"; };
 		B7D6E4A31DFA41C700D79BFF /* 柯里化(Currying).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "柯里化(Currying).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7D6E4A61DFA41C700D79BFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B7D6E4A81DFA41C700D79BFF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -105,6 +111,9 @@
 				B7D6E4A81DFA41C700D79BFF /* ViewController.swift */,
 				B7D6E4D41DFA47F000D79BFF /* BankModel.swift */,
 				B7D6E4D61DFA5B6300D79BFF /* GYSequence.swift */,
+				B7D5A56E1E07E2480066EA16 /* GYTuple.swift */,
+				B7BE025C1E0902F8001F8A58 /* GYEscaping.swift */,
+				B771C0F81E0935DD00DD007C /* GYIndex.swift */,
 				B7D6E4AA1DFA41C700D79BFF /* Main.storyboard */,
 				B7D6E4AD1DFA41C700D79BFF /* Assets.xcassets */,
 				B7D6E4AF1DFA41C700D79BFF /* LaunchScreen.storyboard */,
@@ -199,7 +208,7 @@
 				TargetAttributes = {
 					B7D6E4A21DFA41C700D79BFF = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = NFC68K2BKB;
+						DevelopmentTeam = UZZG6NM74T;
 						ProvisioningStyle = Automatic;
 					};
 					B7D6E4B61DFA41C700D79BFF = {
@@ -268,10 +277,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7D5A56F1E07E2480066EA16 /* GYTuple.swift in Sources */,
 				B7D6E4D71DFA5B6300D79BFF /* GYSequence.swift in Sources */,
 				B7D6E4A91DFA41C700D79BFF /* ViewController.swift in Sources */,
 				B7D6E4D51DFA47F000D79BFF /* BankModel.swift in Sources */,
 				B7D6E4A71DFA41C700D79BFF /* AppDelegate.swift in Sources */,
+				B771C0F91E0935DD00DD007C /* GYIndex.swift in Sources */,
+				B7BE025D1E0902F8001F8A58 /* GYEscaping.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,11 +433,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = NFC68K2BKB;
+				DEVELOPMENT_TEAM = UZZG6NM74T;
 				INFOPLIST_FILE = "柯里化(Currying)/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Ozner.----Currying-";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ozner.gycurreny;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -435,11 +447,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = NFC68K2BKB;
+				DEVELOPMENT_TEAM = UZZG6NM74T;
 				INFOPLIST_FILE = "柯里化(Currying)/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Ozner.----Currying-";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ozner.gycurreny;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};

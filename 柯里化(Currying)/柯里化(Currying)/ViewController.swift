@@ -76,7 +76,36 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        //自定义下标数组
+        var arr2 = [1,2,3,4,5];
+        
+        let arr1 = arr2[[0,1,2]]
+        print(arr1)
+        //逃逸闭包
+        GYEscaping().method1()
+        GYEscaping().method2()
+        GYEscaping().method3()
+        
+        doWork {
+            print("work")
+        }
+        
+        doWorkAsync {
+            print("work")
+        }
+        
+        var a = 5
+        var b = 10
+        
+        swap(&a, &b)
+        
+//        GYTuple.swapMe2(a: &a, b: &b)
+        
+        print(a,b)
+        
+        let rect = CGRect(x: 0, y: 0, width: 100, height: 100)
+  
         let addTwo = addTo(2)
 //        addTwo (Int)->Int
         print(addTwo)
@@ -144,6 +173,18 @@ class ViewController: UIViewController {
         
         return {$0 > comparer}
         
+    }
+    
+    //@escaping
+    func doWork(block:()->()) {
+        block()
+    }
+    
+    func doWorkAsync(block:@escaping ()->())
+    {
+        DispatchQueue.main.async {
+            block()
+        }
     }
     
     override func didReceiveMemoryWarning() {
