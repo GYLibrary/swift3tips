@@ -77,8 +77,23 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        
+        let viewSb = UIView()
+        viewSb.frame = CGRect(x: 20, y: 100, width: 200, height: 200)
+        viewSb.backgroundColor = UIColor.red
+        self.view.addSubview(viewSb)
+        
+        
         //自定义下标数组
         var arr2 = [1,2,3,4,5];
+        
+        //Optional Map
+        let arr3 = arr2.map {
+            $0 * 2
+        }
+        
+        print(arr3)
+        
         
         let arr1 = arr2[[0,1,2]]
         print(arr1)
@@ -135,7 +150,7 @@ class ViewController: UIViewController {
 
         myCar.changeColor()
         
-        view.backgroundColor = myCar.color
+//        view.backgroundColor = myCar.color
         
         let arr = [0,1,2,3,4]
         

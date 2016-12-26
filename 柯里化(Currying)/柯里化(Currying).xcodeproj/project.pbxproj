@@ -40,6 +40,7 @@
 
 /* Begin PBXFileReference section */
 		B771C0F81E0935DD00DD007C /* GYIndex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GYIndex.swift; sourceTree = "<group>"; };
+		B771C0FA1E0A71F300DD007C /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 		B7BE025C1E0902F8001F8A58 /* GYEscaping.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GYEscaping.swift; sourceTree = "<group>"; };
 		B7D5A56E1E07E2480066EA16 /* GYTuple.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GYTuple.swift; sourceTree = "<group>"; };
 		B7D6E4A31DFA41C700D79BFF /* 柯里化(Currying).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "柯里化(Currying).app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -107,6 +108,7 @@
 		B7D6E4A51DFA41C700D79BFF /* 柯里化(Currying) */ = {
 			isa = PBXGroup;
 			children = (
+				B771C0FA1E0A71F300DD007C /* MyPlayground.playground */,
 				B7D6E4A61DFA41C700D79BFF /* AppDelegate.swift */,
 				B7D6E4A81DFA41C700D79BFF /* ViewController.swift */,
 				B7D6E4D41DFA47F000D79BFF /* BankModel.swift */,
